@@ -21,6 +21,9 @@ export class TasksRepository implements ITasksRepository {
         description: true,
         createdAt: true,
       },
+      orderBy: {
+        createdAt: "asc",
+      },
     });
 
     return allTasks;
@@ -32,14 +35,6 @@ export class TasksRepository implements ITasksRepository {
     });
 
     return task as Task;
-  }
-
-  async getByTitle(title: string): Promise<Task[]> {
-    const tasks = await prismaClient.task.findMany({
-      where: { title },
-    });
-
-    return tasks as Task[];
   }
 
   async update(taskToUpdate: Task): Promise<Task> {
