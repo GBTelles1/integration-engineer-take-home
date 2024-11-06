@@ -1,0 +1,28 @@
+.createTaskForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background: #262626;
+
+  max-width: 500px;
+
+  border-radius: 8px;
+}
+
+.formState {
+  height: 1.5rem;
+}
+
+.formState.error {
+  color: #f68f8f;
+}
+
+.formState.success {
+  color: #0dd30d;
+}
