@@ -1,0 +1,39 @@
+.taskCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+
+  background: #262626;
+
+  border: 1px solid #262626;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+
+.taskInformation {
+  width: 50%;
+}
+
+.taskActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.deleteTaskButton {
+  background: #f68f8f;
+  color: #0d0d0d;
+}
+
+.deleteTaskButton:hover {
+  background: #c04646;
+  color: #0d0d0d;
+}
+
+@media only screen and (max-width: 375px) {
+  .taskCard {
+    padding: 1rem;
+  }
+}
