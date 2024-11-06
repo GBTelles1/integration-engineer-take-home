@@ -95,7 +95,7 @@ Then the project will be running on http://localhost:5173/
 
 ### Tests
 
-I've added some tests with Jest to the frontend project. You can run them using:
+I've added some tests with Jest to the frontend project. You can run them, inside /frontend folder, using:
 
 ```bash
 npm run test
