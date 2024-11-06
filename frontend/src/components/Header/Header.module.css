@@ -1,0 +1,27 @@
+header.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 3rem;
+
+  background: #0d0d0d;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4ea8de;
+}
+
+.homeLink {
+  transition: color 0.3s;
+}
+
+@media only screen and (max-width: 375px) {
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+}
