@@ -73,6 +73,8 @@ npm install
 
 ## Running
 
+### Backend
+
 Docker with docker-compose are used to run the backend project. You can start the its server by running:
 
 ```bash
@@ -80,3 +82,21 @@ docker-compose up -d
 ```
 
 Then the project will be running on http://localhost:8000/
+
+### Frontend
+
+You can start the development server by running:
+
+```bash
+npm run dev
+```
+
+Then the project will be running on http://localhost:5173/
+
+### Tests
+
+I've added some tests with Jest to the frontend project. You can run them using:
+
+```bash
+npm run test
+```
