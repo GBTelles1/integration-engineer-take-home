@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.taskAmount {
+  padding: 0.125rem 0.5rem;
+  background: #333333;
+  color: #d9d9d9;
+
+  border-radius: 999px;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
